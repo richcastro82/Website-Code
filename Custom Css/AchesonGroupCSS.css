@@ -1,0 +1,110 @@
+/*
+ACHESON GROUP - MAIN WEBSITE
+CUSTOM CSS CODE FOR STYLING
+CREATED BY- RICHARD CASTRO
+*/
+
+/* GENERAL SETTINGS */
+.tagRed{color:#973333;}
+.tagRed_RGBA{}
+.tagRed_Hover{}
+.tagGreen{}
+.tagGreen_RGBA{}
+.tagGreen_Hover{}
+.tagGreen_RGBA{}
+.tagYellow{}
+.tagYellow_Hover{}
+.TAG-grey{color:#ccc;}
+.HIDE{visibility:hidden;position: absolute;}
+.VIZ{visibility: visible;position: relative;}
+.hide{visibility:hidden;position:absolute;}
+.Ccenter{text-align:center!important;margin:auto;padding:auto;vertical-align:middle;}
+.nopad{margin:auto;padding:auto;}
+.greyout{background:#6c877f!important;}
+.owl-dots{visibility:hidden;}
+.toppad{padding-top:0px;margin:0px;}
+
+.desktop_viz {
+  	visibility:visible!important;
+  	position:relative!important;
+}
+.mobile_viz{
+  	visibility:hidden!important;
+  	position:absolute!important;
+}
+/***************************************/
+h1, h2, h3, h4, h5, h6, h7, h8{}
+
+h1{}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+/***************************************/
+
+/* GENERAL POSITION SETTINGS */
+.alignLeft{}
+.alignCenter{}
+.title_Font{}
+.title_Section{}
+.callToAction{}
+/***************************************/
+/* GENERAL ELEMENTS */
+
+/* THE CALL TO ACTION AT THE BOTTOM OF EACH PAGE */
+
+/* THE SUB HEADER BANNER ON EACH PAGE - */
+/*These are the general settings, unique page styling may be under a differnt section.*/
+
+/*  PAGE HEADER SECTIONS */
+/* some page unique setting may be under a different section */
+
+/* FOOTER SECTION */
+/* main footer container */
+
+/* footer column 1 */
+
+/* footer column 2 */
+
+/* footer column 3 */
+
+/* footer column 4 */
+/***************************************/
+/* MEGA MENU SECTION */
+/***************************************/
+/* SIDEBAR MENU SECTION */
+
+/* SIDEBAR POPUP SECTION */
+
+/* MAIN NAVIGATION SECTION */
+
+/* TOP NAVIGATION SECTION */
+
+/* CONTACT LEFT SECTION */
+
+/* CONTACT RIGHT SECTION */
+
+/* ABOUT PAGE TEAM MEMBER SECTION */
+
+/* ABOUT PAGE INDUSTRIES SECTION */
+
+/* HOME PAGE SERVICES SECTION */
+
+/* COVID PAGE */
+
+/* INSIGHTS PAGE */
+
+
+
+
+/***************************************/
+/* 15+ inch screens */
+
+/* 11-14 inch screens */
+
+/* tablet screens */
+
+/* phones screens */
+
+/***************************************/

@@ -1,0 +1,593 @@
+/*****************************
+ * bug fixes Thanksgiving 2020
+*****************************/
+.blog_wrap.case_study_carousel.owl-carousel.curosel-style.owl-loaded.owl-drag{
+	overflow:hidden;
+}
+
+.fsmfe-wrapper .menu-overlay {
+    z-index: 0;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.animatePDF i{
+	    -webkit-animation: ripple-white 1s linear infinite;
+    animation: ripple-white 1s linear infinite;
+    -webkit-transition: .5s;
+}
+/******************************************************/
+
+
+
+/* COVID BUTTON FOR MAIN MENU RIGHT SIDE */
+.donate-btn-header {display: inline-block;float: right;margin-top: 26px;margin-left: 20px;}
+a.dtbtn {
+    -moz-user-select: none;background: #00247E;border: medium none;color: #fff!important;cursor: pointer;
+    display: inline-block;font-size: 17px;margin-bottom: 0;padding: 11px 28px;text-align: center;
+    text-transform: capitalize;-webkit-transition: all 0.3s ease 0s;-o-transition: all 0.3s ease 0s;transition: all 0.3s ease 0s;
+    vertical-align: middle;border-radius: 3px;border: 2px solid #00247E;color:#fff;font-weight: 600;}
+a.dtbtn:hover {background: #00247E;color: #000!important;border-color: #fcb100;}
+/**************************************************/
+
+
+
+/* FONT, COLOR, SIZE, ALIGNMENT */
+.red{color:#973333;}
+.green{color:#6c877f;}
+.yellow{color:#fcb100;}
+.grey{color:#ccc;}
+
+.Ccenter{text-align:center!important;margin:auto;padding:auto;vertical-align:middle;}
+
+.hide{
+	visibility:hidden;position:absolute;}
+
+h2.center{
+	font-size:26px;
+	margin:0px;
+	}
+h5.center{
+	font-size:20px;
+	margin:0px;
+	color:#973333;
+	}
+h6.center{
+	font-size:16px;
+	margin:0px;
+	}
+
+.nopad{margin:auto;padding:auto;}
+.greyout{background:#6c877f!important;}
+.owl-dots{visibility:hidden;}
+.toppad{padding-top:0px;margin:0px;}
+.toptoptop{position:absolute;visibility:hidden;}
+
+
+
+
+
+
+.lepopup-form-14 .lepopup-element div.lepopup-input select option, .lepopup-form-14 .lepopup-element div.lepopup-input textarea::placeholder{font-size:14px!important;}
+.lepopup-form-14 .lepopup-element div.lepopup-input select option, .lepopup-form-14 .lepopup-element div.lepopup-input input::placeholder{font-size:14px!important;}
+
+/* UNIFYING THE CSS CODE */
+h1,h2,h3,h4,h5,h6,h7,h8{margin:auto;padding:auto;line-height:100%;}
+
+/* THIS IS THE GENERAL CODE FOR THE HEADER SECTIONS*/
+
+.effective-content p{
+		width:35%;
+		margin:auto 0;
+	}
+
+.effective-content.text-center{
+	margin-top:-100px;
+}
+
+#home_header #home_header_row.header_section h2,h3,h4,h5,h6,h7,h8{
+	text-align:left;
+	line-height:50px;
+	padding-top:0px;
+	margin-top:20px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	margin:auto 0;
+	width:100%!important;
+}
+.cd-headline.clip.is-full-width{text-align:left;}
+
+@media only screen and (max-width:1024px){
+	#home_header .header_section h2, h3, h4, p, h5, h6, h7, h1, button{text-align:center;}
+
+	.effective-content.text-center p{
+		text-align:center;
+		margin:0 auto;
+	}
+
+.effective-content p{
+		width: 100%;
+
+	}
+
+
+
+
+	.effective_slider_btn{text-align:center!important;}
+
+}
+
+@media only screen and (max-width:479px){
+
+
+
+
+
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(2),.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(3),.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(4){visibility:hidden;position:absolute;}
+}
+
+@media only screen (max-width:780px){
+
+	.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3 {
+		max-width:30%!important;
+	}
+
+
+
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(4){visibility:hidden;position:absolute;}
+}
+
+@media only screen (max-width:990px){
+
+
+
+
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(3),.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(4){visibility:hidden;position:absolute;}
+
+}
+
+
+/***************************/
+/* ABOUT TAG PAGE */
+
+/**************************/
+
+
+
+
+
+
+/* CONTACT PAGE CODE */
+
+h5.contact_form_p{
+	line-height:100%;
+}
+
+
+
+
+
+.desktop_viz{
+	visibility:visible!important;
+	position:relative!important;
+}
+.mobile_viz{
+	visibility:hidden!important;
+	position:absolute!important;
+}
+
+
+
+/* ABOUT TEAMS SECTION */
+/*
+.kc-elm.kc-css-719686.kc-flipbox.kc-flip-container.slick-slide{width:220px;}
+
+.kc-elm .kc-flipbox.kc-flip-container.slick-slide.slick-cloned{width:300px!important;}
+
+.kc-elm .kc-flipbox.kc-flip-container.slick-slide{width:300px!important;}
+
+body.kc-css-system .kc-css-693710 .front, body.kc-css-system .back{width:300px!important;}
+
+*/
+
+
+
+
+.Richard_Stuff div .widget{
+    margin-bottom: 40px;
+    padding: 35px 30px 35px;
+    border-radius: 8px;
+    background: #fff;
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 0 5px rgba(0,0,0,0.10);
+}
+
+
+.Richard_Stuff h2{
+	text-decoration:underline #973333;
+}
+.Richard_Stuff{
+	text-decoration:underline #973333;
+}
+
+
+
+
+#eapps-coronavirus-stats-f88fc3bb-f895-4b87-89fa-99e84d7f5d6b a{
+visibility:hidden!important;position:absolute!important;
+}
+
+.Main__Footer-xz49ti-2.gVryDy{
+visibility:hidden!important;position:absolute!important;
+}
+
+.elfsight-app-f88fc3bb-f895-4b87-89fa-99e84d7f5d6b{
+	/*padding:60px 0px!important;*/
+	height:100%!important;
+}
+
+
+
+#menu-service-menu{width:265px!important;}
+
+
+
+/* FOOTER SECTIONS */
+.footer-middle;{
+	visibility:hidden!important;
+	position:absolute!important;
+}
+
+.footer-middle .container .col-sm-12.col-md-6.col-lg-4:nth-child(1){
+	/*max-width:20%;*/
+}
+
+.footer-middle .container .gallery{
+	/*margin-bottom:0px;*/
+}
+
+.footer-middle .container .gallery-item{
+padding:0px;
+}
+
+.entry-content img, .entry-summary img, .comment-content img, .widget img, .wp-caption{width:70%;}
+
+.footer-middle{
+	padding:10px 0px 6px;
+/*	height:180px;*/
+/*	visibility:hidden;*/
+/*	position:absolute;*/
+}
+
+.footer-middle .container h2{
+	font-size:1.3em;
+	padding-bottom:2px;
+	border-bottom:3px solid #973333;
+text-decoration:none!important;
+	margin-bottom:6px;
+/* margin-top:30px;*/}
+
+.footer-middle .widget ul li a{font-size:14px;margin:auto;padding:auto;}
+
+.footer-middle .widget ul li::before{
+	width:auto;}
+
+.footer-middle .widget ul li{
+	margin-bottom:0px!important;
+	padding-left:0px;}
+
+.footer-middle .widget h2{text-decoration:underline;text-align:left;}
+/*
+.footer-middle{box-shadow:0px -2px 10px rgba(0,0,0,.3);}
+*/
+
+
+/* FOOTER SECTION #1 */
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(1){
+/*	max-width:220px;*/
+	text-align:center;
+/*	border-right:3px solid #666666;*/
+/*	border-right:3px solid #666666;*/
+/*	border-bottom-left-radius:75px;*/
+/*	background-color:rgba(100, 0, 10, 	     0.5);*/
+  padding-top:12px;
+	padding-bottom:30px;	border-bottom-right-radius:80px;
+	/*height:100%!important;*/
+ /* margin-top:20px;*/
+	/*background:#333!important;*/
+	/*	z-index:3;*/
+}
+
+/* FOOTER SECTION #2 */
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(2){
+/*border-right:3px solid #666666;	*//*border-bottom-right-radius:80px;*/
+}
+
+/* FOOTER SECTION #3 */
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(3){
+/*	max-width:16%;*/
+/*	margin-left:-4%;*/
+	padding-left:50px;
+/*	border-right:3px solid #666666;
+	border-bottom-right-radius:80px;*/
+	/*background:#888;*/
+	z-index:2;
+}
+
+/* FOOTER SECTION #4 */
+.footer-middle .container .row .col-sm-12.col-md-6.col-lg-3:nth-child(4){
+/*	margin-left:2%;*/
+/*	margin-left:-4%;*/
+	padding-left:50px;
+/*	padding-top:20px;*/
+/*	border-right:3px solid #666666;*/
+/*	border-bottom-right-radius:80px;*/
+/*	background:#999;*/
+	z-index:1;
+
+}
+
+#footer_1{
+/*	background: #888;*/
+
+}
+
+#footer_1b{
+/*	border-right:3px solid #666666;*/
+	border-bottom-right-radius:80px;
+	/*height:100%!important;*/
+/*	padding-bottom:55px;*/
+	z-index:4;
+	/*background: #7333*/
+	/*border-radius: 0px 0px 40px 0px;*/
+}
+
+
+
+
+
+
+/* MEGA MENU CSS */
+
+/* HEADERS */
+h4.mega-block-title{
+	padding-top:26px!important;
+}
+
+
+.Mega_Sub1{
+	/*background-color:#FFF!important;*/
+	padding-bottom:40px!important;
+	margin:0px!important;
+	text-align:center!important;
+}
+
+.Mega_Sub1 a{text-align:left!important;}
+
+.Mega_Sub2{/*
+	background-color:#973333!important;*/
+	margin:0px!important;
+	text-align:center!important;
+}
+
+.Mega_Sub3{/*
+	background-color:#6c877f!important;*/
+	margin:0px!important;
+	text-align:center!important;
+}
+
+
+.Mega_Sub4{/*
+  background-color:#fcb100!important;*/
+	margin:0px!important;
+	text-align:center!important;
+}
+
+.Mega_Sub5{
+	margin:0px!important;
+	text-align:center!important;
+}
+
+.Mega_Sub6{/*
+	background-color:#fcb100!important;*/
+	margin:0px!important;
+	text-align:center!important;
+}
+
+
+
+.mega_home_1,.mega_home_2,.mega_home_3,.mega_home_4{
+	margin:20px 0px 20px 0px!important;
+	padding:0px 30px!important;
+	border-right:1px solid #777!important;
+}
+.mega_home_4{
+	border-right:none!important;
+}
+
+
+
+
+
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-item:nth-child(6){
+	/*float:right;*/
+/*	margin-right:60px;*/
+/*padding-right:15px;*/
+	background:#fcb100;
+	border-radius:10px;
+		margin-bottom:20px;
+	/*padding:0px 60px;*/
+}
+
+ul.mega-menu{
+
+}
+
+.mega-menu-row{
+
+	margin-top:1px!important;
+}
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu{
+	background-image: url ("https://foodsafetyconsulting.com/wp-content/uploads/Website_Graphics/Backgrounds/cyber-security-slider.png")!important;
+}
+
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 p{text-align:center;}
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1{float:left!important;margin-left:20px;padding-bottom:30px;}
+
+#mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title, #mega-menu-wrap-menu-1 #mega-menu-menu-1 > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item h4.mega-block-title{
+	text-align:left;
+	border-bottom:2px solid #973333;
+	margin:0px 6px;
+
+	text-decoration:none;
+	font-size:18px;
+}
+
+/* menu section */
+.techno_menu ul{text-align:left;}
+.techno_menu{float:none!important;}
+.techno_nav_area.prefix .techno_menu>ul>li>a{
+	color:#000;
+}
+
+.techno_menu ul li:last-child a{
+	/*color:#fff;*/
+	/*background:#973333;*/
+/*	margin-left:100px;*/
+/*padding:4px 10px!important;*/
+/*	border-radius:6px;*/
+
+}
+
+
+
+/* MOBILE LAYOUT */
+
+/* LAPTOP LAYOUT */
+
+/*  */
+
+
+
+@media only screen and (max-width:479px) {
+h2, h5, p, a{text-align:center!important;}
+.effective_slider_btn{
+	text-align:center!important;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.desktop_viz{
+	visibility:hidden!important;
+	position:absolute!important;
+}
+
+.mobile_viz{
+	visibility:visible!important;
+	position:relative!important;
+}
+	.mobileSize{visibility:visible!important;position:relative!important;}
+
+}
+
+.mobileSize{visibility:hidden;position:absolute;}
+
+
+@media only screen and (max-width: 600px) {
+	.desktopSize{visibility:hidden!important;position:absolute!important;}
+
+}
+
+.desktopSize{visibility:visible;position:relative;}
+
+
+
+.brand-thumb img {
+webkit-filter: none;
+    filter: none;
+    opacity: 1;
+}
+
+/*****************************/
+
+.classic-it-service .message-box-wrap i{
+	background:#973333;
+	border:2px solid #000;
+	border-right:none;
+	border-radius: 10px 0px 0px 10px;
+}
+
+.classic-it-service .message-box-wrap {
+	border-radius:10px 10px 10px 10px!important;
+}
+
+.classic-it-service .message-box-wrap:hover{
+	background:rgba(145, 49, 49, 0.75)!important;
+}
+
+/********************************/
+
+.desktopSize:;
+.em-cases-study-content {}
+
+.menu-service-menu-container ul{
+	position:fixed;
+}
+#intro-section{min-height:600px;}
+.postHead h2{text-align:right;}
+/*.mainmain p{margin:0px!important;}*/
+/*.mainmain h2{text-align:left;}*/
+/*.mainmain h5{text-align:left;}*/
+.effective_slider_btn{text-align:left;}
+.titleBorder{border-bottom:4px solid #973333;}
+
+.kc-popover-tooltip{width:auto;margin-right:10px;}
+
+
+
+
+.center{text-align:center;}
+.centerImg{margin:auto;padding:auto;}
+
+.em-team.main-style.style-four.kc-elm.kc-css-365154{
+	background-color:none;
+	margin:10px;
+}
+#TeamScoller{background-color:rgb(0,0,0,0);padding:0px; margin:0px;}
+
+.team_cursousel_slider .em-team{margin:0px;}
+.logo a{margin:4px;}
+
+
+.em-slick-slider-new .single-slide {
+	height:650px;}
+
+
+
+/* TAG TAB SECTION */
+.tabtag{
+	padding-left:none!important;
+}
+
+.form-group .button {background:#973333;}
+
+.lepopup-input .lepopup-ta-left::placeholder{font-size:40px!important;}
+
+
+
+
+
+
+.banner-content.banner-slick.banner-content h4{margin:0px;}
+
+
+#home.em-slick-slider-new .banner-content{
+	left:10%;
+	top:40%;
+}
